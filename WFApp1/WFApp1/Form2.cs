@@ -21,5 +21,12 @@ namespace WFApp1
         {
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form3 page3 = new Form3();
+            page3.Show();
+        }
     }
 }
